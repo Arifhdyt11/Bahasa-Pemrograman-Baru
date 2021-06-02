@@ -1,9 +1,10 @@
 from lexer import Lexer
 from aparser import Parser
+from evaluator import Evaluator
 
 
 def main():
-    filename = 'contoh.code'
+    filename = 'test.code'
     file = open(filename, 'r')
     lexer = Lexer(file)
     parser = Parser(lexer.tokens)
@@ -15,6 +16,11 @@ def main():
     parser.build_AST()
     print("AST:")
     print(parser.AST, "\n")
+
+    evaluator = Evaluator(parser.AST)
+
+    print("OUTPUT:")
+    evaluator.run(parser.AST)
 
 
 if __name__ == "__main__":

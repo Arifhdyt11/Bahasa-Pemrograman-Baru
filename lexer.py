@@ -1,15 +1,14 @@
 class Lexer:
 
-    def __init__(self,data):
+    def __init__(self, data):
         self.data = data
-        self.tokens=[]
+        self.tokens = []
         self.keywords = [
-            'cetak',
-            'load',
-            'end'
+            'echo',
+            'goto',
+            'stop'
         ]
 
-    
     def tokenizer(self):
         for loc in self.data:
             tmp = []
