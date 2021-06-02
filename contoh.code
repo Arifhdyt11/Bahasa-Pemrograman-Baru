@@ -1,8 +1,0 @@
-mulai:
-    cetak "Ini contoh"
-    load label2
-    cetak "Ini contoh 3"
-    end
-    cetak "Ini contoh 4"
-label2:
-    cetak "Ini contoh 2"
