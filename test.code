@@ -1,8 +1,0 @@
-lesgo:
-    echo "This is a test"
-    goto other_label
-    echo "kembali kesini"
-    stop
-    echo "Ini tidak tampil"
-other_label:
-    echo "lain label"
