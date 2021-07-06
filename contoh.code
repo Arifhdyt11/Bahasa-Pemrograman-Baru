@@ -1,0 +1,32 @@
+PRINT("INI MERUPAKAN OUTPUT")
+PRINT("Untuk Menjalankan Outuput Buka file grammar.txt")
+
+PRINT("---------------------------")
+
+VAR z = 2 
+IF z != 4 LALU
+	PRINT ("INI BUKAN EMPAT")
+END
+
+PRINT("---------------------------")
+
+VAR result = 1
+VAR x = 5
+MULAI i = 1 SAMPAI x LALU
+	VAR result = result + 2
+END
+PRINT (result)
+
+PRINT("---------------------------")
+
+MULAI i = 1 SAMPAI 4 LALU
+	PRINT ("INI PERULANGAN")
+END
+
+PRINT("---------------------------")
+
+VAR a = 1 
+MULAI i = 1 SAMPAI 5 LALU
+	VAR a = a * 2
+END
+PRINT (a)
